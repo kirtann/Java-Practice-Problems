@@ -33,9 +33,17 @@ public class Solution {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner in = new Scanner(System.in);
-        String s =in.nextLine();
-        String p =in.nextLine();
-        System.out.println(s);
-        System.out.println("Unknown");
+        String s1 =in.nextLine();
+        String s2 =in.nextLine();
+        if((s1.toUpperCase()).equals(s1.toLowerCase()))
+        {
+            s1 = "Unknown";
+        }
+        if((s2.toUpperCase()).equals(s2.toLowerCase()))
+        {
+            s2 = "Unknown";
+        }
+        System.out.println(s1);
+        System.out.println(s2);
 }
 }
