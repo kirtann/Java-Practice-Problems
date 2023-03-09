@@ -18,8 +18,9 @@ Sample Input 0
 brilliant
 l
 Sample Output 0
-
-2import java.io.*;
+2
+*/
+import java.io.*;
 import java.util.*;
 
 public class Solution {
@@ -42,4 +43,4 @@ public class Solution {
         System.out.println(count);
     }
 }
-*/
+
