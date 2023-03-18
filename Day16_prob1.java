@@ -23,7 +23,7 @@ Sample Output 0
 2
 */
 
-// kirtan jain
+// Kirtan Jain
 import java.io.*;
 import java.util.*;
 
