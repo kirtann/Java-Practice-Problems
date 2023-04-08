@@ -43,25 +43,17 @@ interface Calculator {
 
 public class Main {
     public static void main(String[] args) {
-        // create an anonymous class that implements Calculator interface
         Calculator calc = new Calculator() {
-            @Override
             public int add(int a, int b) {
                 return a + b;
             }
-            @Override
             public int subtract(int a, int b) {
                 return a - b;
             }
-            @Override
             public int multiply(int a, int b) {
                 return a * b;
             }
-            @Override
             public int divide(int a, int b) {
-                if (b == 0) {
-                    throw new IllegalArgumentException("division by zero");
-                }
                 return a / b;
             }
         };
@@ -76,7 +68,6 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        // perform the requested operation
         int result;
         switch (operation) {
             case 1:
@@ -96,7 +87,6 @@ public class Main {
                 return;
         }
 
-        // print the result
         System.out.println(result);
     }
 }
