@@ -27,7 +27,7 @@ Sample Output 1
 120
 */
 
-// kirtan jain
+// Kirtan Jain
 import java.io.*;
 import java.util.*;
 
